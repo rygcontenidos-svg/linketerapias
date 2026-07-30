@@ -1,0 +1,6 @@
+{
+  "watch": ["app", "components", "lib", "i18n", "messages", "next.config.ts", "tailwind.config.ts", "middleware.ts"],
+  "ext": "ts,tsx,json,css",
+  "ignore": [".next", "node_modules"],
+  "exec": "npm run build && npx next start -p 3000"
+}

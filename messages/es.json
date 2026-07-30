@@ -1,0 +1,219 @@
+{
+  "home": {
+    "nav": {
+      "inicio": "Inicio",
+      "buscar": "Buscar terapeutas",
+      "empleo": "Ofertas de empleo",
+      "profesionales": "Profesionales",
+      "panel": "Mi panel",
+      "login": "Iniciar sesión"
+    },
+    "hero": {
+      "eyebrow": "Directorio de terapeutas · España",
+      "title": "Encuentra tu terapeuta de confianza",
+      "subtitle": "Psicólogos, logopedas, fisioterapeutas, pedagogos y terapeutas ocupacionales.",
+      "free": "Gratis para pacientes · sin registro para buscar"
+    },
+    "especialidades": {
+      "title": "Explora por especialidad",
+      "fisioterapeuta": "Fisioterapeuta",
+      "logopeda": "Logopeda",
+      "pedagogo": "Pedagogo",
+      "psicologo": "Psicólogo",
+      "ocupacional": "Terapeuta ocupacional",
+      "proximamente": "Próximamente",
+      "profesionales": "profesionales"
+    },
+    "comoFunciona": {
+      "title": "Cómo funciona",
+      "paso1": {
+        "title": "Busca",
+        "description": "Filtra por especialidad y ciudad para encontrar al profesional que necesitas."
+      },
+      "paso2": {
+        "title": "Elige",
+        "description": "Compara perfiles, valoraciones de Google y disponibilidad."
+      },
+      "paso3": {
+        "title": "Reserva",
+        "description": "Pide tu cita en segundos, sin registro."
+      }
+    },
+    "destacados": {
+      "title": "Terapeutas destacados",
+      "verTodos": "Ver todos"
+    },
+    "profesionales": {
+      "title": "Para profesionales",
+      "terapeuta": {
+        "title": "Soy terapeuta",
+        "description": "Crea tu perfil, gestiona tu agenda y conecta con nuevos pacientes.",
+        "cta": "Crear perfil"
+      },
+      "empresa": {
+        "title": "Soy empresa",
+        "description": "Publica ofertas y gestiona varios terapeutas y sedes.",
+        "cta": "Publicar oferta"
+      }
+    },
+    "footer": {
+      "tagline": "El directorio que conecta pacientes con los mejores terapeutas de España.",
+      "pacientes": "Pacientes",
+      "profesionales": "Profesionales",
+      "legal": "Legal",
+      "avisoLegal": "Aviso legal",
+      "privacidad": "Privacidad",
+      "cookies": "Cookies",
+      "buscarTerapeuta": "Buscar terapeuta",
+      "comoFunciona": "Cómo funciona",
+      "especialidades": "Especialidades",
+      "crearPerfil": "Crear perfil",
+      "publicarOferta": "Publicar oferta",
+      "gestionAgenda": "Gestionar agenda",
+      "copyright": "© 2026 LinkeTerapias"
+    }
+  },
+  "directory": {
+    "title": "Encuentra al terapeuta indicado",
+    "subtitle": "Directorio de logopedas, psicólogos, fisioterapeutas y más, cerca tuyo.",
+    "resultsTitle": "Terapeutas disponibles",
+    "mapCta": "Ver en el mapa",
+    "loadingMap": "Cargando mapa...",
+    "loadMore": "Cargar más terapeutas",
+    "noResults": "No hay terapeutas con esos filtros.",
+    "filterTitle": "Filtros",
+    "filterSpecialty": "Especialidad",
+    "filterRating": "Valoración mínima",
+    "filterPrice": "Precio máximo",
+    "filterUpTo": "Hasta",
+    "filterMode": "Modalidad",
+    "filterOnline": "Online",
+    "filterInPerson": "Presencial",
+    "stars": "estrellas"
+  },
+  "filters": {
+    "today": "Disponible hoy",
+    "online": "Online",
+    "inPerson": "Presencial",
+    "firstFree": "Primera visita gratis"
+  },
+  "profile": {
+    "verified": "Verificado",
+    "sendMessage": "Enviar mensaje",
+    "about": "Sobre mí",
+    "treats": "Trata",
+    "services": "Servicios y precios",
+    "book": "Reservar",
+    "location": "Ubicación",
+    "reviews": "Opiniones",
+    "reply": "Respuesta del profesional",
+    "booking": {
+      "title": "Reserva tu cita",
+      "inPerson": "Presencial",
+      "online": "Online",
+      "selectService": "Seleccioná un servicio",
+      "summary": "Confirmación entre ambas partes · pago al reservar",
+      "cta": "Agendar cita"
+    }
+  },
+  "professionals": {
+    "hero": {
+      "badge": "Gratis ahora — lanzamiento sin coste",
+      "title": "Haz crecer tu práctica en LinkeTerapias",
+      "subtitle": "Más pacientes, más visibilidad y acceso a oportunidades laborales del sector terapéutico. Todo en un solo lugar.",
+      "ctaTerapeuta": "Soy terapeuta",
+      "ctaEmpresa": "Soy empresa"
+    },
+    "terapeuta": {
+      "title": "Para terapeutas",
+      "benefit1": "Perfil público que te encuentran pacientes y empresas.",
+      "benefit2": "Tus estrellas y reseñas de Google, directo en tu perfil.",
+      "benefit3": "Agenda de citas online, con confirmación entre ambas partes.",
+      "benefit4": "Bolsa de empleo: publica tu disponibilidad, sube tu CV y postula a ofertas.",
+      "benefit5": "Destaca tu perfil para aparecer primero en las búsquedas.",
+      "cta": "Crear perfil"
+    },
+    "empresa": {
+      "title": "Para empresas",
+      "benefit1": "Perfil corporativo con varias sedes y varios terapeutas.",
+      "benefit2": "Publica ofertas de empleo específicas del sector.",
+      "benefit3": "Busca y contacta terapeutas en búsqueda activa.",
+      "benefit4": "Destaca tus ofertas para llegar a más candidatos.",
+      "benefit5": "Un solo panel para gestionar todo tu equipo.",
+      "cta": "Publicar oferta"
+    },
+    "diferencial": {
+      "eyebrow": "Lo que no encontrarás en un directorio común",
+      "title": "Una bolsa de empleo solo para el sector terapéutico",
+      "description": "Como LinkedIn, pero enfocado 100% en terapeutas y empresas de terapias. Conectá con las oportunidades y el talento que otros directorios no tienen."
+    },
+    "pasos": {
+      "title": "Empezar es simple",
+      "step1": { "title": "Regístrate", "description": "Crea tu cuenta como terapeuta o empresa en menos de un minuto." },
+      "step2": { "title": "Completa tu perfil", "description": "Añade tu información, especialidades, precios y fotos. Tú tienes el control." },
+      "step3": { "title": "Recibe contactos", "description": "Empieza a recibir pacientes y a ver oportunidades laborales." }
+    },
+    "precios": {
+      "title": "Precios claros, sin sorpresas",
+      "lead": "Los pacientes nunca pagan. Los profesionales, ahora tampoco.",
+      "planTitle": "Lanzamiento",
+      "price": "Gratis",
+      "priceSub": "Ahora sin coste, hasta que crezca la comunidad. Después, 3,69 €/mes (IVA incl.).",
+      "feature1": "Perfil público completo",
+      "feature2": "Estrellas de Google en tu perfil",
+      "feature3": "Agenda de citas",
+      "feature4": "Acceso a la bolsa de empleo",
+      "feature5": "Cancela cuando quieras",
+      "cta": "Únete gratis",
+      "destTitle": "Destacados",
+      "destOptional": "· opcional",
+      "destNote": "Visibilidad extra puntual: tu perfil u oferta aparece primero en los listados durante el período contratado. Pago único, no recurrente.",
+      "destBasic": "Básico",
+      "destStandard": "Estándar",
+      "destPremium": "Premium",
+      "destDays": "días",
+      "destFooter": "Disponible para terapeutas (en búsqueda de empleo) y empresas (al publicar ofertas). Precios orientativos."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": { "title": "¿Cuánto cuesta unirme?", "text": "Ahora es gratis, durante el lanzamiento. Cuando la comunidad crezca, la suscripción será de 3,69 €/mes (IVA incluido). Los pacientes no pagan nunca." },
+      "q2": { "title": "¿Qué es un destacado?", "text": "Un impulso de visibilidad puntual (7, 15 o 30 días) para que tu perfil u oferta aparezca primero en los listados. Se activa y expira solo, por fechas." },
+      "q3": { "title": "¿Puedo cancelar cuando quiera?", "text": "Sí. La suscripción es mensual y sin permanencia. Si la cancelas, tu perfil deja de mostrarse en el directorio y en la bolsa de empleo." },
+      "q4": { "title": "¿Cómo funcionan las citas?", "text": "El paciente solicita la cita y se confirma entre ambas partes. Puedes integrar tu Google Calendar y, si prefieres, no publicar citas online." },
+      "q5": { "title": "¿Aparecen mis reseñas de Google?", "text": "Sí. Mostramos tu puntuación y número de reseñas de Google directamente en tu perfil, sincronizadas automáticamente." }
+    },
+    "ctaFinal": {
+      "title": "Únete gratis hoy",
+      "subtitle": "Suma tu perfil a LinkeTerapias mientras el lanzamiento es sin coste."
+    }
+  },
+  "empleo": {
+    "title": "Bolsa de empleo",
+    "subtitle": "El punto de encuentro entre profesionales y centros del sector terapéutico.",
+    "lock": "Solo terapeutas y empresas",
+    "tabOfertas": "Ofertas de empleo",
+    "tabProfesionales": "Profesionales disponibles",
+    "ctaOferta": "Publicar oferta",
+    "ctaDisponibilidad": "Publicar mi disponibilidad",
+    "filters": "Filtros",
+    "filterSpecialty": "Especialidad",
+    "filterHiring": "Contratación",
+    "filterAutonomo": "Autónomo",
+    "filterContratado": "Contratado",
+    "filterMode": "Modalidad",
+    "filterPresencial": "Presencial",
+    "filterOnline": "Online",
+    "filterHibrido": "Híbrido",
+    "filterCity": "Ciudad",
+    "postular": "Postular",
+    "verCV": "Ver CV",
+    "contactar": "Contactar",
+    "loadMore": "Cargar más ofertas",
+    "loadMorePros": "Cargar más profesionales",
+    "bannerText": "¿Buscás trabajo? Activá tu disponibilidad y que las empresas te encuentren.",
+    "bannerCta": "Publicar mi disponibilidad",
+    "featured": "Destacado",
+    "disponible": "Disponible",
+    "cvActualizado": "CV actualizado"
+  }
+}

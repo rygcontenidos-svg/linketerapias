@@ -1,0 +1,153 @@
+{
+  "home": {
+    "nav": {
+      "inicio": "Inici",
+      "buscar": "Cercar terapeutes",
+      "empleo": "Ofertes de feina",
+      "profesionales": "Professionals",
+      "panel": "El meu panell",
+      "login": "Iniciar sessió"
+    },
+    "hero": {
+      "eyebrow": "Directori de terapeutes · Espanya",
+      "title": "Troba el teu terapeuta de confiança",
+      "subtitle": "Psicòlegs, logopedes, fisioterapeutes, pedagogs i terapeutes ocupacionals.",
+      "free": "Gratuït per a pacients · sense registre per cercar"
+    },
+    "especialidades": {
+      "title": "Explora per especialitat",
+      "fisioterapeuta": "Fisioterapeuta",
+      "logopeda": "Logopeda",
+      "pedagogo": "Pedagog",
+      "psicologo": "Psicòleg",
+      "ocupacional": "Terapeuta ocupacional",
+      "proximamente": "Properament",
+      "profesionales": "professionals"
+    },
+    "comoFunciona": {
+      "title": "Com funciona",
+      "paso1": {
+        "title": "Cerca",
+        "description": "Filtra per especialitat i ciutat per trobar el professional que necessites."
+      },
+      "paso2": {
+        "title": "Tria",
+        "description": "Compara perfils, valoracions de Google i disponibilitat."
+      },
+      "paso3": {
+        "title": "Reserva",
+        "description": "Demana la teva cita en segons, sense registre."
+      }
+    },
+    "destacados": {
+      "title": "Terapeutes destacats",
+      "verTodos": "Veure tots"
+    },
+    "profesionales": {
+      "title": "Per a professionals",
+      "terapeuta": {
+        "title": "Soc terapeuta",
+        "description": "Crea el teu perfil, gestiona la teva agenda i connecta amb nous pacients.",
+        "cta": "Crear perfil"
+      },
+      "empresa": {
+        "title": "Soc empresa",
+        "description": "Publica ofertes i gestiona diversos terapeutes i seus.",
+        "cta": "Publicar oferta"
+      }
+    },
+    "footer": {
+      "tagline": "El directori que connecta pacients amb els millors terapeutes d'Espanya.",
+      "pacientes": "Pacients",
+      "profesionales": "Professionals",
+      "legal": "Legal",
+      "avisoLegal": "Avís legal",
+      "privacidad": "Privacitat",
+      "cookies": "Galetes",
+      "buscarTerapeuta": "Cercar terapeuta",
+      "comoFunciona": "Com funciona",
+      "especialidades": "Especialitats",
+      "crearPerfil": "Crear perfil",
+      "publicarOferta": "Publicar oferta",
+      "gestionAgenda": "Gestionar agenda",
+      "copyright": "© 2026 LinkeTerapias"
+    }
+  },
+  "directory": {
+    "title": "Troba el terapeuta adequat",
+    "subtitle": "Directori de logopedes, psicòlegs, fisioterapeutes i més, a prop teu.",
+    "resultsTitle": "Terapeutes disponibles",
+    "mapCta": "Veure al mapa",
+    "loadingMap": "Carregant mapa...",
+    "loadMore": "Carregar més terapeutes",
+    "noResults": "No hi ha terapeutes amb aquests filtres.",
+    "filterTitle": "Filtres",
+    "filterSpecialty": "Especialitat",
+    "filterRating": "Valoració mínima",
+    "filterPrice": "Preu màxim",
+    "filterUpTo": "Fins a",
+    "filterMode": "Modalitat",
+    "filterOnline": "En línia",
+    "filterInPerson": "Presencial",
+    "stars": "estrelles"
+  },
+  "filters": {
+    "today": "Disponible avui",
+    "online": "En línia",
+    "inPerson": "Presencial",
+    "firstFree": "Primera visita gratuïta"
+  },
+  "profile": {
+    "verified": "Verificat",
+    "sendMessage": "Enviar missatge",
+    "about": "Sobre mi",
+    "treats": "Tracta",
+    "services": "Serveis i preus",
+    "book": "Reservar",
+    "location": "Ubicació",
+    "reviews": "Opinions",
+    "reply": "Resposta del professional",
+    "booking": {
+      "title": "Reserva la teva cita",
+      "inPerson": "Presencial",
+      "online": "En línia",
+      "selectService": "Selecciona un servei",
+      "summary": "Confirmació entre ambdues parts · pagament al reservar",
+      "cta": "Agendar cita"
+    }
+  },
+  "professionals": {
+    "hero": {
+      "badge": "Gratis ara — llançament sense cost",
+      "title": "Fes créixer la teva pràctica a LinkeTerapias",
+      "subtitle": "Més pacients, més visibilitat i accés a oportunitats laborals del sector terapèutic. Tot en un sol lloc.",
+      "ctaTerapeuta": "Soc terapeuta",
+      "ctaEmpresa": "Soc empresa"
+    },
+    "terapeuta": {
+      "title": "Per a terapeutes",
+      "benefits": [],
+      "cta": "Crear perfil"
+    },
+    "empresa": {
+      "title": "Per a empreses",
+      "benefits": [],
+      "cta": "Publicar oferta"
+    },
+    "diferencial": { "title": "", "description": "" },
+    "pasos": { "title": "" },
+    "precios": { "title": "", "lead": "", "cta": "" },
+    "faq": { "title": "" },
+    "ctaFinal": { "title": "", "subtitle": "" }
+  },
+  "empleo": {
+    "title": "Borsa de treball",
+    "subtitle": "El punt de trobada entre professionals i centres del sector terapèutic.",
+    "tabOfertas": "Ofertes de feina",
+    "tabProfesionales": "Professionals disponibles",
+    "postular": "Postular",
+    "verCV": "Veure CV",
+    "contactar": "Contactar",
+    "loadMore": "Carregar més ofertes"
+  }
+}

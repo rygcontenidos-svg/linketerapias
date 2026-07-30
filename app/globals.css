@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Tokens de marca LinkeTerapias — extraídos del logo.
+  Fuente de verdad en CSS vars para que funcione igual en Tailwind v3 o v4.
+*/
+:root {
+  color-scheme: light;
+
+  --brand: #5e17eb;
+  --brand-dark: #4a12c0;
+  --brand-tint: #ece0fd;
+  --accent: #00b6b0;
+  --accent-text: #007a75;
+  --accent-tint: #d4f7f6;
+
+  --ink: #1a2233;
+  --muted: #64748b;
+  --line: #e5e9f0;
+  --surface: #ffffff;
+  --bg: #ffffff;
+
+  --radius-card: 16px;
+  --radius-control: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display), var(--font-body), sans-serif;
+  font-weight: 600;
+}
+
+@keyframes navFadeIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes cardRise {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.94);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-card-rise {
+  animation: cardRise 0.55s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  opacity: 0;
+}
+
+.specialty-card {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s ease,
+              border-color 0.35s ease;
+}
+.specialty-card:hover {
+  transform: translateY(-5px) scale(1.03);
+  box-shadow: 0 20px 48px rgba(94,23,235,0.13);
+  border-color: var(--brand);
+}
+.specialty-card:hover .icon-circle {
+  transform: translateY(-3px) scale(1.12);
+}
+.specialty-card .icon-circle {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.icon-circle {
+  position: relative;
+}

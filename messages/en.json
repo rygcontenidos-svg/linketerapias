@@ -1,0 +1,153 @@
+{
+  "home": {
+    "nav": {
+      "inicio": "Home",
+      "buscar": "Find therapists",
+      "empleo": "Job offers",
+      "profesionales": "Professionals",
+      "panel": "My panel",
+      "login": "Log in"
+    },
+    "hero": {
+      "eyebrow": "Therapist directory · Spain",
+      "title": "Find your trusted therapist",
+      "subtitle": "Psychologists, speech therapists, physiotherapists, pedagogues and occupational therapists.",
+      "free": "Free for patients · no registration to search"
+    },
+    "especialidades": {
+      "title": "Explore by specialty",
+      "fisioterapeuta": "Physiotherapist",
+      "logopeda": "Speech therapist",
+      "pedagogo": "Pedagogue",
+      "psicologo": "Psychologist",
+      "ocupacional": "Occupational therapist",
+      "proximamente": "Coming soon",
+      "profesionales": "professionals"
+    },
+    "comoFunciona": {
+      "title": "How it works",
+      "paso1": {
+        "title": "Search",
+        "description": "Filter by specialty and city to find the professional you need."
+      },
+      "paso2": {
+        "title": "Choose",
+        "description": "Compare profiles, Google ratings and availability."
+      },
+      "paso3": {
+        "title": "Book",
+        "description": "Request your appointment in seconds, no registration needed."
+      }
+    },
+    "destacados": {
+      "title": "Featured therapists",
+      "verTodos": "View all"
+    },
+    "profesionales": {
+      "title": "For professionals",
+      "terapeuta": {
+        "title": "I'm a therapist",
+        "description": "Create your profile, manage your schedule and connect with new patients.",
+        "cta": "Create profile"
+      },
+      "empresa": {
+        "title": "I'm a company",
+        "description": "Post job offers and manage multiple therapists and locations.",
+        "cta": "Post offer"
+      }
+    },
+    "footer": {
+      "tagline": "The directory connecting patients with the best therapists in Spain.",
+      "pacientes": "Patients",
+      "profesionales": "Professionals",
+      "legal": "Legal",
+      "avisoLegal": "Legal notice",
+      "privacidad": "Privacy",
+      "cookies": "Cookies",
+      "buscarTerapeuta": "Find therapist",
+      "comoFunciona": "How it works",
+      "especialidades": "Specialties",
+      "crearPerfil": "Create profile",
+      "publicarOferta": "Post offer",
+      "gestionAgenda": "Manage schedule",
+      "copyright": "© 2026 LinkeTerapias"
+    }
+  },
+  "directory": {
+    "title": "Find the right therapist",
+    "subtitle": "A directory of speech, psychology, physiotherapy and more, near you.",
+    "resultsTitle": "Available therapists",
+    "mapCta": "View on map",
+    "loadingMap": "Loading map...",
+    "loadMore": "Load more therapists",
+    "noResults": "No therapists match those filters.",
+    "filterTitle": "Filters",
+    "filterSpecialty": "Specialty",
+    "filterRating": "Minimum rating",
+    "filterPrice": "Maximum price",
+    "filterUpTo": "Up to",
+    "filterMode": "Mode",
+    "filterOnline": "Online",
+    "filterInPerson": "In person",
+    "stars": "stars"
+  },
+  "filters": {
+    "today": "Available today",
+    "online": "Online",
+    "inPerson": "In person",
+    "firstFree": "First visit free"
+  },
+  "profile": {
+    "verified": "Verified",
+    "sendMessage": "Send message",
+    "about": "About me",
+    "treats": "Treats",
+    "services": "Services & prices",
+    "book": "Book",
+    "location": "Location",
+    "reviews": "Reviews",
+    "reply": "Response from the professional",
+    "booking": {
+      "title": "Book your appointment",
+      "inPerson": "In person",
+      "online": "Online",
+      "selectService": "Select a service",
+      "summary": "Mutual confirmation · pay upon booking",
+      "cta": "Schedule appointment"
+    }
+  },
+  "professionals": {
+    "hero": {
+      "badge": "Free now — launch with no cost",
+      "title": "Grow your practice on LinkeTerapias",
+      "subtitle": "More patients, more visibility and access to job opportunities in the therapy sector. All in one place.",
+      "ctaTerapeuta": "I'm a therapist",
+      "ctaEmpresa": "I'm a company"
+    },
+    "terapeuta": {
+      "title": "For therapists",
+      "benefits": [],
+      "cta": "Create profile"
+    },
+    "empresa": {
+      "title": "For companies",
+      "benefits": [],
+      "cta": "Post offer"
+    },
+    "diferencial": { "title": "", "description": "" },
+    "pasos": { "title": "" },
+    "precios": { "title": "", "lead": "", "cta": "" },
+    "faq": { "title": "" },
+    "ctaFinal": { "title": "", "subtitle": "" }
+  },
+  "empleo": {
+    "title": "Job board",
+    "subtitle": "The meeting point between professionals and therapy sector centers.",
+    "tabOfertas": "Job offers",
+    "tabProfesionales": "Available professionals",
+    "postular": "Apply",
+    "verCV": "View CV",
+    "contactar": "Contact",
+    "loadMore": "Load more offers"
+  }
+}
