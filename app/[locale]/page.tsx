@@ -23,6 +23,9 @@ const DESTACADOS: TherapistCardData[] = [
   { slug: "marina-costa", name: "Marina Costa", specialty: "Terapeuta ocupacional", subtitle: "Integración sensorial", city: "Ciutat Vella, Barcelona", rating: 4.6, reviews: 27, featured: false },
   { slug: "david-lopez", name: "David López", specialty: "Psicólogo", subtitle: "Neuropsicología clínica", city: "Centro, Madrid", rating: 4.9, reviews: 201, featured: true },
   { slug: "sara-ibanez", name: "Sara Ibáñez", specialty: "Fisioterapeuta", subtitle: "Suelo pélvico", city: "Sants-Montjuïc, Barcelona", rating: 4.7, reviews: 63, featured: false },
+  { slug: "roger-font", name: "Roger Font", specialty: "Logopeda", subtitle: "Deglución y voz", city: "Gràcia, Barcelona", rating: 4.8, reviews: 85, featured: false },
+  { slug: "alba-camps", name: "Alba Camps", specialty: "Pedagoga", subtitle: "Altas capacidades", city: "Eixample, Valencia", rating: 4.4, reviews: 19, featured: false },
+  { slug: "pablo-moreno", name: "Pablo Moreno", specialty: "Fisioterapeuta", subtitle: "Deportiva y readaptación", city: "Chamberí, Madrid", rating: 4.5, reviews: 38, featured: false },
 ];
 
 export default async function HomePage() {
