@@ -1,7 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
-import { Logo, LogoMark } from "@/components/brand/logo";
-import { SearchBar } from "@/components/search-bar";
+import { MainHeader } from "@/components/main-header";
 import { TherapistCard } from "@/components/therapist-card";
 import type { TherapistCardData } from "@/lib/types";
 
@@ -33,33 +32,7 @@ export default async function HomePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <section className="relative bg-surface py-12 md:py-16">
-        <div
-          className="pointer-events-none absolute right-[50px] top-0 opacity-[0.15]"
-          style={{ transform: "translate(10%, -10%)" }}
-          aria-hidden
-        >
-          <LogoMark size={320} />
-        </div>
-        <div className="relative mx-auto max-w-3xl px-5 text-center">
-          <p className="mb-3 text-[13px] font-bold uppercase tracking-widest text-brand">
-            {t("hero.eyebrow")}
-          </p>
-          <h1 className="font-display text-3xl text-ink md:text-5xl md:leading-tight">
-            {t("hero.title")}
-          </h1>
-          <p className="mx-auto mt-4 max-w-xl text-[15px] text-muted">
-            {t("hero.subtitle")}
-          </p>
-          <div className="mt-8">
-            <SearchBar />
-          </div>
-          <p className="mt-5 text-[15px] text-muted">
-            <i className="ti ti-heart align-text-bottom text-lg" style={{ color: "var(--accent)" }} aria-hidden />{" "}
-            {t("hero.free")}
-          </p>
-        </div>
-      </section>
+      <MainHeader />
 
       <section className="mx-auto max-w-6xl px-5 py-16 md:py-20">
         <h2 className="font-display text-2xl text-ink">{t("especialidades.title")}</h2>

@@ -24,6 +24,10 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.local/
+
+# Figma design-context cache (raw exports, reference code — not shipped assets)
+.caché/
 
 # vercel
 .vercel

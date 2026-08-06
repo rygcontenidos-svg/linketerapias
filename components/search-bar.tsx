@@ -96,10 +96,10 @@ function CityAutocomplete({
           value={value}
           onChange={(e) => { onChange(e.target.value); setOpen(true); }}
           onFocus={() => { if (filtered.length > 0) setOpen(true); }}
-          placeholder="Localidad"
+          placeholder="Ciudad"
           className="w-full bg-transparent py-2.5 text-sm outline-none"
           style={{ color: "var(--ink)" }}
-          aria-label="Localidad"
+          aria-label="Ciudad"
         />
       </label>
       {open && filtered.length > 0 && (
@@ -125,13 +125,17 @@ function CityAutocomplete({
 export function SearchBar({
   defaultSpecialty = "",
   defaultCity = "",
+  variant = "default",
 }: {
   defaultSpecialty?: string;
   defaultCity?: string;
+  /** "hero" matches the Figma main-header pill: white, fully rounded, teal button, no icon. */
+  variant?: "default" | "hero";
 }) {
   const router = useRouter();
   const [specialty, setSpecialty] = useState(defaultSpecialty);
   const [city, setCity] = useState(defaultCity);
+  const isHero = variant === "hero";
 
   function submit() {
     const params = new URLSearchParams();
@@ -141,11 +145,17 @@ export function SearchBar({
   }
 
   return (
-    <div className="flex flex-col gap-2 rounded-card border border-line bg-surface p-2.5 sm:flex-row">
+    <div
+      className={
+        isHero
+          ? "flex flex-col gap-2 rounded-full bg-white p-2 drop-shadow-[0px_12px_16px_rgba(36,26,53,0.09)] sm:flex-row sm:items-stretch"
+          : "flex flex-col gap-2 rounded-card border border-line bg-surface p-2.5 sm:flex-row"
+      }
+    >
       <div className="flex flex-1 items-stretch sm:border-r sm:border-line">
         <NavDropdown
           mode="select"
-          label="Especialidad"
+          label="Especialidad, ej. ansiedad"
           value={specialty}
           onChange={setSpecialty}
           items={ESPECIALIDADES_ITEMS}
@@ -156,9 +166,13 @@ export function SearchBar({
 
       <button
         onClick={submit}
-        className="flex items-center justify-center gap-2 rounded-control bg-brand px-6 py-3 text-sm font-medium text-white transition hover:bg-brand-dark"
+        className={
+          isHero
+            ? "flex shrink-0 items-center justify-center rounded-full bg-accent px-6 py-3 text-[14.5px] font-bold text-white transition hover:opacity-90"
+            : "flex items-center justify-center gap-2 rounded-control bg-brand px-6 py-3 text-sm font-medium text-white transition hover:bg-brand-dark"
+        }
       >
-        <i className="ti ti-search" aria-hidden />
+        {!isHero && <i className="ti ti-search" aria-hidden />}
         Buscar
       </button>
     </div>

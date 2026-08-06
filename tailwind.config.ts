@@ -33,6 +33,9 @@ const config: Config = {
         card: "var(--radius-card)",
         control: "var(--radius-control)",
       },
+      maxWidth: {
+        grid: "1128px",
+      },
       fontFamily: {
         display: ["var(--font-display)", "sans-serif"],
         body: ["var(--font-body)", "sans-serif"],

@@ -9,16 +9,16 @@
 :root {
   color-scheme: light;
 
-  --brand: #5e17eb;
-  --brand-dark: #4a12c0;
-  --brand-tint: #ece0fd;
-  --accent: #00b6b0;
-  --accent-text: #007a75;
-  --accent-tint: #d4f7f6;
+  --brand: #621eeb;
+  --brand-dark: #4d17c0;
+  --brand-tint: #efe9fd;
+  --accent: #2cbdb8;
+  --accent-text: #1a7f7a;
+  --accent-tint: #dff7f5;
 
-  --ink: #1a2233;
-  --muted: #64748b;
-  --line: #e5e9f0;
+  --ink: #241a35;
+  --muted: #675f78;
+  --line: #e7dfef;
   --surface: #ffffff;
   --bg: #ffffff;
 
